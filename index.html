@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+    .attribution { font-size: 11px; text-align: center; margin-top: 100px; position: relative;}
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    body{
+      background-color: hsl(212, 45%, 89%);
+    }
+
+    .box{
+      background-color: hsl(0, 0%, 100%);
+      width: 300px;
+      height: 450px;
+      margin-top: 100px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 20px;
+    }
+
+    #qr-code{
+      width: 270px;
+      height: 270px;
+      border-radius: 20px;
+      position: relative;
+      left: 15px;
+      top: 15px;
+    }
+
+    h2 {
+      font-family: "Outfit", sans-serif;
+      font-weight: 700;
+      left: 15px;
+      position: relative;
+      color: hsl(218, 44%, 22%);
+    }
+
+    p{
+      font-family: "Outfit", sans-serif;
+      color: hsl(216, 15%, 48%);
+      font-weight: 400;
+      font-size: 16px;
+      width: 250px;
+      text-align: center;
+      left: 25px;
+      bottom: 10px;
+      position: relative;
+    }
+  </style>
+
+</head>
+<body>
+  <div class="box">
+    <img id="qr-code" src="images\image-qr-code.png"/>
+    <h2>Improve your front-end skills by building projects</h2>
+    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://saadportfolio.rf.gd" target="_blank">Saad Muhammad</a>.
+  </div>
+</body>
+</html>
